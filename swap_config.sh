@@ -1,7 +1,10 @@
 #!/bin/bash
 
-# The following will update the router with a chosen NordVPN config file given the FILE_PATH as an argument to this script by 1) uploading it to the /etc/openvpn/ dir and 2) editing the /etc/init.d/openvpn config to point to the file.
-# If the config file already exists in /etc/openvpn/, 1) above will be skipped and only 2) above will be performed
+# The following will update the router with a chosen NordVPN config file given the FILE_PATH 
+# as an argument to this script by 1) uploading it to the /etc/openvpn/ dir and 2) editing 
+# the /etc/init.d/openvpn config to point to the file.
+# If the config file already exists in /etc/openvpn/, 1) above will be skipped and 
+# only 2) above will be performed
 
 # Ex. ./swap_config.sh server123.vpn.com
 
